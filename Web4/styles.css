@@ -1,0 +1,424 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'EB Garamond', serif;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #23603f;
+    color: white;
+    padding: 25px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: rgb(247, 247, 106);
+}
+
+.container {
+    width: 80%;
+    margin: 10px auto 0;
+    overflow: hidden;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+#page2 header nav ul li {
+    list-style: none;
+    padding: 10px;
+    margin: 0 10px;
+    font-size: x-large;
+    display: flex;
+}
+
+.main-content {
+    padding: 50px;
+    padding-top: 80px;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.main-content h2 {
+    font-size: 3em;
+    line-height: 1.6em;
+}
+
+.main-content h3 {
+    font-size: 2em;
+    line-height: 1em;
+}
+
+.main-content p {
+    font-size: 1.5em;
+    line-height: 1.6em;
+}
+
+.main-content h4 {
+    font-size: 1.5em;
+    line-height: 1.6em;
+}
+
+.main-content ul li {
+    font-size: 1.5em;
+    line-height: 1.6em;
+}
+
+.main-content3 {
+    align-items: center;
+    margin: 20px;
+    padding: 70px;
+}
+
+.main-content3 h1 {
+    text-align: center; 
+    background-color: #23603f; 
+    margin-top: 7px;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: #4a7b61;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-top: 7px;
+    color: #eee;
+    font-weight: bolder;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-image {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+.header-image img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 3px solid #333;
+}
+
+.profile-summary {
+    flex: 2;
+    padding: 7px;
+}
+
+.home-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.home-content p {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+}
+
+.home-content img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #333;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+section p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    line-height: 1.6em;
+}
+
+#portfolio {
+    background-color: #e5ede4;
+    padding: 50px 0;
+}
+
+#portfolio h2 {
+    text-align: center;
+}
+
+.container2 {
+    align-items: center;
+    margin: 5px;
+    padding: 0 50px;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.project-card {
+    background: linear-gradient(135deg, #4a7b61, #f7f4e9, #5b9279);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: calc(50% - 20px);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.project-card h3 {
+    text-align: center;
+    margin: 15px;
+    font-size: 1.2em;
+}
+
+.project-card p {
+    text-align: center;
+    margin: 0 15px 15px;
+    color: #555;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.contact-info, #contact {
+    background: linear-gradient(135deg, #4a7b61, #f7f4e9, #5b9279);
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h3, #contact h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #23603f;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contact-info p, #contact p {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+#contact form {
+    background: linear-gradient(135deg, #4a7b61, #f7f4e9, #5b9279);
+    max-width: 600px;
+    margin: 0 auto;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact form label {
+    margin-top: 10px;
+}
+
+#contact form input, #contact form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact form button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #23603f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    align-self: center;
+}
+
+#contact form button:hover {
+    background-color: #5b9279;
+}
+
+footer {
+    background-color: #23603f;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+footer p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+#about {
+    padding: 20px;
+}
+
+.about-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.about-main-content {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(135deg, #4a7b61, #f7f4e9, #5b9279);
+}
+
+.section-title {
+    text-align: center;
+    background-color: #23603f;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.summary, .education, .experience, .about-projects {
+    margin-bottom: 15px;
+}
+
+.know-more {
+    display: block;
+    padding-right: 50px;
+    margin-top: 20px;
+    font-size: 1.1em;
+    color: #000000;
+    text-decoration: none;
+}
+
+.know-more:hover {
+    text-decoration: underline;
+    color: rgb(98, 167, 118);
+}
+
+@media (max-width: 768px) {
+    .about-container {
+        width: 95%;
+    }
+
+    .about-main-content {
+        padding: 15px;
+    }
+
+    .section-title {
+        font-size: 1.5em;
+        padding: 8px;
+    }
+
+    .summary, .education, .experience, .about-projects {
+        font-size: 1em;
+    }
+
+    .know-more {
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header nav ul {
+        display: flex;
+        padding-right: 50px;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .header-image {
+        flex: 1;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 5px;
+    }
+    
+    .header-image img {
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        border: 3px solid #333;
+    }
+
+    .main-content3 {
+        align-items: center;
+        margin: 20px;
+        padding: 50px;
+    }
+
+    .main-content3 h1{
+        margin-top: 20px;
+    }
+
+    .profile-section {
+        flex-direction: column;
+    }
+
+    .projects {
+        padding-top: 40px;
+        padding-left: 45px;
+    }
+
+    .project-card {
+        width: calc(100% - 50px);
+    }
+
+    .project-card img {
+        width: 100%;
+        height: 200px;
+        object-fit: fill;
+    }
+
+}
